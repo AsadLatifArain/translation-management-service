@@ -17,27 +17,27 @@ Designed to handle multilingual translations (e.g., `en`, `fr`, `es`, `zh`) with
 
 ## 📁 Folder Structure Overview
 
-app/
-├── Http/
-│ ├── Controllers/
-│ │ └── Api/
-│ │ ├── AuthController.php
-│ │ └── TranslationController.php
-│ ├── Requests/
-│ │ ├── LoginRequest.php
-│ │ ├── RegisterRequest.php
-│ │ └── TranslationRequest.php
-│ └── Traits/
-│ └── ApiResponseTrait.php
-├── Models/
-│ └── Translation.php
-database/
-├── factories/
-│ └── TranslationFactory.php
-├── seeders/
-│ └── TranslationSeeder.php
-routes/
-├── api.php
+app/  
+├── Http/  
+│ ├── Controllers/  
+│ │ └── Api/  
+│ │ ├── AuthController.php  
+│ │ └── TranslationController.php  
+│ ├── Requests/  
+│ │ ├── LoginRequest.php  
+│ │ ├── RegisterRequest.php  
+│ │ └── TranslationRequest.php  
+│ └── Traits/  
+│ └── ApiResponseTrait.php  
+├── Models/  
+│ └── Translation.php  
+database/  
+├── factories/  
+│ └── TranslationFactory.php  
+├── seeders/  
+│ └── TranslationSeeder.php  
+routes/  
+├── api.php  
 
 
 ## 🚀 API Endpoints
@@ -53,13 +53,13 @@ routes/
 | POST   | `/api/translations/update/{id}`     | Update a translation               | ✅            |
 | DELETE | `/api/translations/{id}`            | Delete a translation               | ✅            |
 
-## Installation
-git clone https://github.com/AsadLatifArain/translation-management-service.git
-cd translation-management-service
+## Installation  
+git clone https://github.com/AsadLatifArain/translation-management-service.git  
+cd translation-management-service  
 
-composer install
-cp .env.example .env
-php artisan key:generate
+composer install  
+cp .env.example .env  
+php artisan key:generate  
 
-php artisan migrate --seed
-php artisan serve
+php artisan migrate --seed  
+php artisan serve  
