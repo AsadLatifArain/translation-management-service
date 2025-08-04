@@ -1,21 +1,21 @@
-# 🌐 Translation Management Service
+# Translation Management Service
 
 A high-performance, API-driven translation management service built with Laravel 12.  
 Designed to handle multilingual translations (e.g., `en`, `fr`, `es`, `zh`) with tagging for contextual use (e.g., `mobile`, `web`, `desktop`) and optimized for large-scale data operations.
 
-## 📌 Features
+## Features
 
-- 🔤 Manage translations across multiple locales.
-- 🏷️ Contextual tagging (e.g., `mobile`, `web`, etc.)
-- 🔍 Filter/search by key, tag, translation.
-- ✅ User authentication with API tokens.
-- 📥 Efficient data seeding for performance testing (100,000+ translations).
-- 🔐 Token-based authentication (no session required).
-- 🔄 JSON responses standardized via custom API response trait.
+-  Manage translations across multiple locales.
+-  Contextual tagging (e.g., `mobile`, `web`, etc.)
+-  Filter/search by key, tag, translation.
+-  User authentication with API tokens.
+-  Efficient data seeding for performance testing (100,000+ translations).
+-  Token-based authentication (no session required).
+-  JSON responses standardized via custom API response trait.
 
 ---
 
-## 📁 Folder Structure Overview
+##  Folder Structure Overview
 
 app/  
 ├── Http/  
@@ -40,7 +40,7 @@ routes/
 ├── api.php  
 
 
-## 🚀 API Endpoints
+## API Endpoints
 
 | Method | Endpoint                            | Description                        | Auth Required |
 |--------|-------------------------------------|------------------------------------|---------------|
